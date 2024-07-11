@@ -1,7 +1,7 @@
 // import React from "react";
 
 import { SubmitHandler, useForm } from "react-hook-form";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import axios from "axios";
 // import { useMutation } from "react-query";
 import ProjectApiList from "../../api/apis";
@@ -28,7 +28,7 @@ const SignUp = () => {
   const { register, handleSubmit } = useForm<FormInput>();
   const mutate = usePostMutation({});
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   let inputStyle =
     "border border-gray-300 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2";

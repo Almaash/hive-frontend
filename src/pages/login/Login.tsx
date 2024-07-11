@@ -6,7 +6,7 @@ import ProjectApiList from "../../api/apis";
 import { SubmitHandler, useForm } from "react-hook-form";
 import logo from "../../assets/img/H i v e.png";
 import { usePostMutation } from "../../hooks/useCustomQuery";
-import Lottie, { Options } from "react-lottie";
+import Lottie from "react-lottie";
 import { LoginPageAani } from "../../Components/AnimationFiles/temp";
 
 interface FormInput {
